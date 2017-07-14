@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      td, tr{
+        border: 1px solid;
+      }
+    </style>
+  <body>
+    <label>New Task</label>
+    <div class="new-task-form">
+      <input class="new-task-input-field" type="textbox" name="task"/>
+      <button class="new-task-button">Add</button>
+    </div>
+    <div class="tasks-container">
+      <h3>Your tasks</h3>
+      <table class="tasks">
+        <tr>
+          <th>
+            id
+          </th>
+          <th>
+            task
+          </th>
+        </tr>
+        <tbody class="tasks-body"></tbody>
+      </table>
+    </div>
+    <script src="todolist.js"></script>
+  </body>
+</html>
